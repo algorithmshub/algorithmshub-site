@@ -1,6 +1,6 @@
-# docz-website
+# AlgorithmsHub Site
 
-Docz theme build for [docz site](http://docz.site)!
+Docz theme build for [AlgorithmsHub site](https://algorithmshub.github.io)!
 
 ## Installation and usage
 
