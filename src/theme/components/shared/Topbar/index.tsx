@@ -77,26 +77,26 @@ interface MenuListItem {
 }
 
 export const TOPBAR_LINKS: MenuListItem[] = [
-  {
-    id: 1,
-    children: 'Home',
-    to: '/',
-  },
-  {
-    id: 2,
-    children: 'Documentation',
-    to: '/docs/getting-started',
-  },
+  // {
+  //   id: 1,
+  //   children: 'Home',
+  //   to: '/',
+  // },
+  // {
+  //   id: 2,
+  //   children: 'Documentation',
+  //   to: '/docs/getting-started',
+  // },
   // {
   //   id: 3,
   //   children: 'Plugins',
   //   to: '/plugins',
   // },
-  {
-    id: 4,
-    children: 'Themes',
-    to: '/themes',
-  },
+  // {
+  //   id: 4,
+  //   children: 'Themes',
+  //   to: '/themes',
+  // },
 ]
 
 export const Topbar = () => {
