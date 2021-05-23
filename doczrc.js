@@ -46,7 +46,13 @@ export default {
     {
       name: 'Maths',
       menu: [
-        'Introduction',
+        'Maths',
+      ],
+    },
+    {
+      name: 'Strings',
+      menu: [
+        'Strings',
       ],
     },
   ],

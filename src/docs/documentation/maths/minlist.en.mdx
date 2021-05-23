@@ -1,0 +1,41 @@
+---
+name: MinList
+route: /en/maths/min-list
+parent: Maths
+menu: Maths
+---
+
+# MinList
+
+**Example**
+
+Find the minimum number of an array.
+
+**Java**
+
+```js
+public class MinList {
+  public static void main(String[] args) {
+    int result = findMin(new int[]{ 12, 35, 7, 10, 34, 2 });
+    System.out.println(result);
+  }
+
+  /**
+    * Find the minimum number of an array of numbers
+    *
+    * @param a the array contains element
+    * @return min value
+    */
+  public static int findMin(int[] a) {
+    int minValue = a[0];
+
+    for (int i = 1; i < a.length; i++) {
+      if (a[i] < minValue) {
+        minValue = a[i];
+      }
+    }
+
+    return minValue;
+  }
+}
+```

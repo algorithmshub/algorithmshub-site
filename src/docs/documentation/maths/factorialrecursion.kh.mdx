@@ -1,11 +1,11 @@
 ---
-name: Factorial
-route: /maths/factorial
+name: FactorialRecursion
+route: /kh/maths/factorial-recursion
 parent: Maths
 menu: Maths
 ---
 
-# Factorial
+# FactorialRecursion
 
 **What is Factorial?**
 
@@ -21,8 +21,8 @@ Write a function to calculate factorial of n using iteration.
 
 **Java**
 
-```java
-public class Factorial {
+```js
+public class FactorialRecursion {
   public static void main(String[] args) {
     System.out.println(factorial(0) == 1);
     System.out.println(factorial(1) == 1);
@@ -31,19 +31,13 @@ public class Factorial {
   }
 
   /**
-   * calculate factorial of n using iteration
+   * Calculate factorial of n using recursion
    *
    * @param n the number
    * @return the factorial of {@code n}
    */
   public static long factorial(int n) {
-    long fact = 1;
-
-    for (int i = 1; i <= n; i++) {
-      fact *= i;
-    }
-    
-    return fact;
+    return n == 0 || n == 1 ? 1 : n * factorial(n - 1);
   }
 }
 ```
