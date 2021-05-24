@@ -22,12 +22,6 @@ public class AllCharactersSame {
     System.out.println(isAllCharactersSame("111"));
   }
 
-  /**
-   * Check if all the characters of a string are same
-   *
-   * @param str the string to check
-   * @return true if all characters of a string are same, otherwise false
-   */
   public static boolean isAllCharactersSame(String str) {
     for (int i = 1, length = str.length(); i < length; ++i) {
       if (str.charAt(i) != str.charAt(0)) {
