@@ -55,6 +55,12 @@ export default {
         'Strings',
       ],
     },
+    {
+      name: 'Assignments',
+      menu: [
+        'Assignments',
+      ],
+    },
   ],
   onCreateWebpackChain: config => {
     config.resolve.alias
