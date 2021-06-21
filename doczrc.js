@@ -69,6 +69,7 @@ export default {
         'Assignment9',
         'Assignment10',
         'Assignment11',
+        'Assignment12',
       ],
     },
   ],
